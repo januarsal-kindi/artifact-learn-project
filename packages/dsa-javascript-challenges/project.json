@@ -1,0 +1,20 @@
+{
+  "name": "dsa-javascript-challenges",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/dsa-javascript-challenges/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/dsa-javascript-challenges",
+        "tsConfig": "packages/dsa-javascript-challenges/tsconfig.lib.json",
+        "packageJson": "packages/dsa-javascript-challenges/package.json",
+        "main": "packages/dsa-javascript-challenges/src/index.ts",
+        "assets": ["packages/dsa-javascript-challenges/*.md"]
+      }
+    }
+  }
+}

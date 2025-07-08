@@ -1,0 +1,9 @@
+{
+  "name": "react-router-challlenge",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/react-router-challlenge/src",
+  "projectType": "library",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project react-router-challlenge --web",
+  "targets": {}
+}

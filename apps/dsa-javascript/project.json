@@ -1,0 +1,59 @@
+{
+  "name": "dsa-javascript",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/dsa-javascript/src",
+  "projectType": "application",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/esbuild:esbuild",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "platform": "node",
+        "outputPath": "dist/apps/dsa-javascript",
+        "format": ["cjs"],
+        "bundle": false,
+        "main": "apps/dsa-javascript/src/main.ts",
+        "tsConfig": "apps/dsa-javascript/tsconfig.app.json",
+        "assets": ["apps/dsa-javascript/src/assets"],
+        "generatePackageJson": true,
+        "esbuildOptions": {
+          "sourcemap": true,
+          "outExtension": {
+            ".js": ".js"
+          }
+        }
+      },
+      "configurations": {
+        "development": {},
+        "production": {
+          "esbuildOptions": {
+            "sourcemap": false,
+            "outExtension": {
+              ".js": ".js"
+            }
+          }
+        }
+      }
+    },
+    "serve": {
+      "continuous": true,
+      "executor": "@nx/js:node",
+      "defaultConfiguration": "development",
+      "dependsOn": ["build"],
+      "options": {
+        "buildTarget": "dsa-javascript:build",
+        "runBuildTargetDependencies": false
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "dsa-javascript:build:development"
+        },
+        "production": {
+          "buildTarget": "dsa-javascript:build:production"
+        }
+      }
+    }
+  }
+}
