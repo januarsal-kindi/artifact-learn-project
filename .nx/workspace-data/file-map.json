@@ -63,7 +63,7 @@
       },
       {
         "file": ".gitignore",
-        "hash": "6787058926513578043"
+        "hash": "5203960351144407933"
       },
       {
         "file": ".prettierignore",
@@ -80,78 +80,6 @@
       {
         "file": ".vscode/settings.json",
         "hash": "95285166216195769"
-      },
-      {
-        "file": "dist/apps/dsa-javascript/apps/dsa-javascript/src/main.js",
-        "hash": "1044452430767258723"
-      },
-      {
-        "file": "dist/apps/dsa-javascript/apps/dsa-javascript/src/main.js.map",
-        "hash": "9947606979680686569"
-      },
-      {
-        "file": "dist/apps/dsa-javascript/main.js",
-        "hash": "12037876282919183303"
-      },
-      {
-        "file": "dist/apps/dsa-javascript/main.js.map",
-        "hash": "18322123887696172024"
-      },
-      {
-        "file": "dist/apps/dsa-javascript/package-lock.json",
-        "hash": "16950833746049308010"
-      },
-      {
-        "file": "dist/apps/dsa-javascript/package.json",
-        "hash": "386665522067111747"
-      },
-      {
-        "file": "dist/apps/dsa-javascript/packages/dsa-javascript-challenges/src/fourConnector.js",
-        "hash": "16390770070572534763"
-      },
-      {
-        "file": "dist/apps/dsa-javascript/packages/dsa-javascript-challenges/src/fourConnector.js.map",
-        "hash": "10385055730699399932"
-      },
-      {
-        "file": "dist/apps/dsa-javascript/packages/dsa-javascript-challenges/src/index.js",
-        "hash": "4814849664023011002"
-      },
-      {
-        "file": "dist/apps/dsa-javascript/packages/dsa-javascript-challenges/src/index.js.map",
-        "hash": "17554975844524641932"
-      },
-      {
-        "file": "dist/packages/dsa-javascript-challenges/README.md",
-        "hash": "2547099609689982437"
-      },
-      {
-        "file": "dist/packages/dsa-javascript-challenges/package.json",
-        "hash": "3492759461620569119"
-      },
-      {
-        "file": "dist/packages/dsa-javascript-challenges/src/fourConnector.d.ts",
-        "hash": "531222509542692016"
-      },
-      {
-        "file": "dist/packages/dsa-javascript-challenges/src/fourConnector.js",
-        "hash": "17402632301634172919"
-      },
-      {
-        "file": "dist/packages/dsa-javascript-challenges/src/fourConnector.js.map",
-        "hash": "12824057542714938686"
-      },
-      {
-        "file": "dist/packages/dsa-javascript-challenges/src/index.d.ts",
-        "hash": "1141102900159009452"
-      },
-      {
-        "file": "dist/packages/dsa-javascript-challenges/src/index.js",
-        "hash": "15675361840293392682"
-      },
-      {
-        "file": "dist/packages/dsa-javascript-challenges/src/index.js.map",
-        "hash": "497976862206869112"
       },
       {
         "file": "eslint.config.mjs",
@@ -241,6 +169,86 @@
           ]
         }
       ],
+      "dsa-javascript-challenges": [
+        {
+          "file": "packages/dsa-javascript-challenges/README.md",
+          "hash": "2547099609689982437"
+        },
+        {
+          "file": "packages/dsa-javascript-challenges/eslint.config.mjs",
+          "hash": "4313095032450400554",
+          "deps": [
+            [
+              "npm:jsonc-eslint-parser",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "packages/dsa-javascript-challenges/package.json",
+          "hash": "17039341771388186609",
+          "deps": [
+            "npm:tslib"
+          ]
+        },
+        {
+          "file": "packages/dsa-javascript-challenges/project.json",
+          "hash": "18417120127139035479"
+        },
+        {
+          "file": "packages/dsa-javascript-challenges/src/fourConnector.ts",
+          "hash": "17599028066352621505"
+        },
+        {
+          "file": "packages/dsa-javascript-challenges/src/index.ts",
+          "hash": "13936193145597210906"
+        },
+        {
+          "file": "packages/dsa-javascript-challenges/src/sosGame.ts",
+          "hash": "3638471494844313869"
+        },
+        {
+          "file": "packages/dsa-javascript-challenges/src/tictactoe.ts",
+          "hash": "16543854673984380635"
+        },
+        {
+          "file": "packages/dsa-javascript-challenges/tsconfig.json",
+          "hash": "14490782888307098276"
+        },
+        {
+          "file": "packages/dsa-javascript-challenges/tsconfig.lib.json",
+          "hash": "15798669420171897096"
+        }
+      ],
+      "dsa-javascript": [
+        {
+          "file": "apps/dsa-javascript/eslint.config.mjs",
+          "hash": "2624537849564014525"
+        },
+        {
+          "file": "apps/dsa-javascript/project.json",
+          "hash": "18347423844649706947"
+        },
+        {
+          "file": "apps/dsa-javascript/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/dsa-javascript/src/main.ts",
+          "hash": "4964232507525050871",
+          "deps": [
+            "dsa-javascript-challenges"
+          ]
+        },
+        {
+          "file": "apps/dsa-javascript/tsconfig.app.json",
+          "hash": "663763413802756907"
+        },
+        {
+          "file": "apps/dsa-javascript/tsconfig.json",
+          "hash": "3025378044812449119"
+        }
+      ],
       "react-router-challenge": [
         {
           "file": "apps/react-router-challenge/.babelrc",
@@ -308,57 +316,6 @@
             "npm:@nx/webpack",
             "npm:@nx/react"
           ]
-        }
-      ],
-      "dsa-javascript-challenges": [
-        {
-          "file": "packages/dsa-javascript-challenges/README.md",
-          "hash": "2547099609689982437"
-        },
-        {
-          "file": "packages/dsa-javascript-challenges/eslint.config.mjs",
-          "hash": "4313095032450400554",
-          "deps": [
-            [
-              "npm:jsonc-eslint-parser",
-              "dynamic"
-            ]
-          ]
-        },
-        {
-          "file": "packages/dsa-javascript-challenges/package.json",
-          "hash": "17039341771388186609",
-          "deps": [
-            "npm:tslib"
-          ]
-        },
-        {
-          "file": "packages/dsa-javascript-challenges/project.json",
-          "hash": "18417120127139035479"
-        },
-        {
-          "file": "packages/dsa-javascript-challenges/src/fourConnector.ts",
-          "hash": "17599028066352621505"
-        },
-        {
-          "file": "packages/dsa-javascript-challenges/src/index.ts",
-          "hash": "13936193145597210906"
-        },
-        {
-          "file": "packages/dsa-javascript-challenges/src/sosGame.ts",
-          "hash": "3638471494844313869"
-        },
-        {
-          "file": "packages/dsa-javascript-challenges/src/tictactoe.ts",
-          "hash": "16543854673984380635"
-        },
-        {
-          "file": "packages/dsa-javascript-challenges/tsconfig.json",
-          "hash": "14490782888307098276"
-        },
-        {
-          "file": "packages/dsa-javascript-challenges/tsconfig.lib.json",
-          "hash": "15798669420171897096"
         }
       ],
       "interview-prep": [
@@ -537,35 +494,6 @@
             "npm:@nx/webpack",
             "npm:@nx/react"
           ]
-        }
-      ],
-      "dsa-javascript": [
-        {
-          "file": "apps/dsa-javascript/eslint.config.mjs",
-          "hash": "2624537849564014525"
-        },
-        {
-          "file": "apps/dsa-javascript/project.json",
-          "hash": "18347423844649706947"
-        },
-        {
-          "file": "apps/dsa-javascript/src/assets/.gitkeep",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/dsa-javascript/src/main.ts",
-          "hash": "4964232507525050871",
-          "deps": [
-            "dsa-javascript-challenges"
-          ]
-        },
-        {
-          "file": "apps/dsa-javascript/tsconfig.app.json",
-          "hash": "663763413802756907"
-        },
-        {
-          "file": "apps/dsa-javascript/tsconfig.json",
-          "hash": "3025378044812449119"
         }
       ]
     }
