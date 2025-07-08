@@ -1,7 +1,7 @@
 vite.config.*.timestamp*
 vitest.config.*.timestamp*
 node_modules
-# tmp
+tmp
 # .nx
 /dist
 /coverage
