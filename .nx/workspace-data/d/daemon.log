@@ -84,3 +84,231 @@
 [NX v21.2.1 Daemon Server] - 2025-07-08T06:44:23.515Z - Done responding to the client project-graph
 [NX v21.2.1 Daemon Server] - 2025-07-08T06:44:23.515Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 3.
 [NX v21.2.1 Daemon Server] - 2025-07-08T06:44:23.518Z - Established a connection. Number of open connections: 6
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:00.156Z - [WATCHER]: .gitignore was modified
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:00.157Z - [REQUEST]: Responding to the client. File watch changed
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at _write (node:internal/streams/writable:491:11)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at /Users/fa-3827/project/learning-prjects/node_modules/nx/src/daemon/server/shutdown-utils.js:73:16
+    at new Promise (<anonymous>)
+    at respondToClient (/Users/fa-3827/project/learning-prjects/node_modules/nx/src/daemon/server/shutdown-utils.js:69:12)
+    at handleResult (/Users/fa-3827/project/learning-prjects/node_modules/nx/src/daemon/server/server.js:192:52)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Promise.all (index 0)
+    at async /Users/fa-3827/project/learning-prjects/node_modules/nx/src/daemon/server/file-watching/file-watcher-sockets.js:27:9
+    at async /Users/fa-3827/project/learning-prjects/node_modules/nx/src/utils/promised-based-queue.js:19:21 {
+  code: 'ERR_STREAM_DESTROYED'
+}
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:00.159Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:00.159Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 2.
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:00.159Z - [WATCHER]: Processing file changes in outputs
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:00.159Z - Time taken for 'changed-projects' 0.11295799999788869ms
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:00.159Z - Closed a connection. Number of open connections: 5
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:00.159Z - Closed a connection. Number of open connections: 4
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:00.159Z - Closed a connection. Number of open connections: 3
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:00.159Z - Closed a connection. Number of open connections: 2
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:00.159Z - Closed a connection. Number of open connections: 1
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:00.160Z - Closed a connection. Number of open connections: 0
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:00.160Z - [WATCHER]: Stopping the watcher for /Users/fa-3827/project/learning-prjects (sources)
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:00.160Z - [WATCHER]: Stopping the watcher for /Users/fa-3827/project/learning-prjects (outputs)
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:00.160Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:03.087Z - Started listening on: /var/folders/3_/z9mhwz2x5z70gfrtbpsvdchc0000gn/T/452c9cf06acaa3a87fd5/d.sock
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:03.090Z - [WATCHER]: Subscribed to changes within: /Users/fa-3827/project/learning-prjects (native)
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:03.092Z - Established a connection. Number of open connections: 1
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:03.093Z - Established a connection. Number of open connections: 2
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:03.094Z - Closed a connection. Number of open connections: 1
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:03.095Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:03.148Z - [WATCHER]: Processing file changes in outputs
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:03.647Z - Time taken for 'Load Nx Plugin: /Users/fa-3827/project/learning-prjects/node_modules/nx/src/plugins/package-json' 549.799125ms
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:03.657Z - Time taken for 'Load Nx Plugin: /Users/fa-3827/project/learning-prjects/node_modules/nx/src/plugins/project-json/build-nodes/project-json' 560.169459ms
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:03.670Z - Time taken for 'loadDefaultNxPlugins' 573.6322500000001ms
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:03.727Z - Time taken for 'Load Nx Plugin: @nx/eslint/plugin' 631.972209ms
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:03.776Z - Time taken for 'Load Nx Plugin: @nx/react/router-plugin' 679.731208ms
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:03.776Z - Time taken for 'Load Nx Plugin: @nx/vite/plugin' 680.163125ms
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:03.779Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:03.779Z - [REQUEST]: 
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:03.779Z - [REQUEST]: 
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:03.790Z - Time taken for 'loadSpecifiedNxPlugins' 682.9812499999999ms
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:03.792Z - Established a connection. Number of open connections: 2
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:03.794Z - Closed a connection. Number of open connections: 1
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:03.794Z - Established a connection. Number of open connections: 2
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:03.795Z - Established a connection. Number of open connections: 3
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:03.798Z - [REQUEST]: Responding to the client. handleGlob
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:03.798Z - Done responding to the client handleGlob
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:03.798Z - Handled GLOB. Handling time: 2. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:03.798Z - Established a connection. Number of open connections: 4
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:03.798Z - Closed a connection. Number of open connections: 3
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:03.798Z - Established a connection. Number of open connections: 4
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:03.799Z - Closed a connection. Number of open connections: 3
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:03.799Z - Established a connection. Number of open connections: 4
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:03.799Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:03.799Z - Done responding to the client handleHashMultiGlob
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:03.799Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:03.799Z - Established a connection. Number of open connections: 5
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:03.803Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:03.803Z - Done responding to the client handleHashMultiGlob
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:03.803Z - Handled HASH_GLOB. Handling time: 3. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:03.803Z - Closed a connection. Number of open connections: 4
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:03.803Z - Established a connection. Number of open connections: 5
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:03.805Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:03.805Z - Done responding to the client handleHashGlob
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:03.805Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:03.807Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:03.807Z - Done responding to the client handleHashMultiGlob
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:03.807Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:03.808Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:03.808Z - Done responding to the client handleHashGlob
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:03.808Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:04.694Z - Time taken for 'build-project-configs' 889.413166ms
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:04.699Z - Time taken for '@nx/vite/plugin:createDependencies' 9.361874999999827ms
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:04.721Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:04.721Z - [REQUEST]: Responding to the client. project-graph
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:04.724Z - Time taken for 'total for creating and serializing project graph' 1626.790709ms
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:04.725Z - Done responding to the client project-graph
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:04.725Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1626. Response time: 4.
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:04.729Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:04.729Z - [REQUEST]: Responding to the client. project-graph
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:04.731Z - Time taken for 'total for creating and serializing project graph' 0.18895799999995688ms
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:04.732Z - Done responding to the client project-graph
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:04.732Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 3.
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:04.735Z - Established a connection. Number of open connections: 6
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:05.739Z - Established a connection. Number of open connections: 7
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:05.741Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:05.741Z - [REQUEST]: Responding to the client. project-graph
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:05.745Z - Time taken for 'total for creating and serializing project graph' 0.35829100000000835ms
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:05.745Z - Closed a connection. Number of open connections: 6
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:05.747Z - Done responding to the client project-graph
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:05.747Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 6.
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:05.753Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:05.754Z - Done responding to the client handleContextFileData
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:05.754Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 0. Response time: 1.
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:05.754Z - Closed a connection. Number of open connections: 5
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:05.837Z - Closed a connection. Number of open connections: 4
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:05.838Z - Established a connection. Number of open connections: 5
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:05.838Z - Established a connection. Number of open connections: 6
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:05.838Z - Closed a connection. Number of open connections: 5
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:05.839Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:05.839Z - [REQUEST]: Responding to the client. project-graph
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:05.841Z - Time taken for 'total for creating and serializing project graph' 0.14029100000016115ms
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:05.842Z - Done responding to the client project-graph
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:05.842Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 3.
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:05.845Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:05.845Z - [REQUEST]: Responding to the client. project-graph
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:05.847Z - Time taken for 'total for creating and serializing project graph' 0.11020899999994072ms
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:05.848Z - Done responding to the client project-graph
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:05.848Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 3.
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:05.851Z - Established a connection. Number of open connections: 6
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:06.434Z - [WATCHER]: .gitignore was modified
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:06.435Z - [REQUEST]: Responding to the client. File watch changed
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at _write (node:internal/streams/writable:491:11)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at /Users/fa-3827/project/learning-prjects/node_modules/nx/src/daemon/server/shutdown-utils.js:73:16
+    at new Promise (<anonymous>)
+    at respondToClient (/Users/fa-3827/project/learning-prjects/node_modules/nx/src/daemon/server/shutdown-utils.js:69:12)
+    at handleResult (/Users/fa-3827/project/learning-prjects/node_modules/nx/src/daemon/server/server.js:192:52)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Promise.all (index 0)
+    at async /Users/fa-3827/project/learning-prjects/node_modules/nx/src/daemon/server/file-watching/file-watcher-sockets.js:27:9
+    at async /Users/fa-3827/project/learning-prjects/node_modules/nx/src/utils/promised-based-queue.js:19:21 {
+  code: 'ERR_STREAM_DESTROYED'
+}
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:06.437Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:06.437Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 2.
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:06.437Z - [WATCHER]: Processing file changes in outputs
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:06.437Z - Time taken for 'changed-projects' 0.0678330000000642ms
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:06.437Z - Closed a connection. Number of open connections: 5
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:06.437Z - Closed a connection. Number of open connections: 4
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:06.437Z - Closed a connection. Number of open connections: 3
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:06.437Z - Closed a connection. Number of open connections: 2
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:06.437Z - Closed a connection. Number of open connections: 1
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:06.437Z - Closed a connection. Number of open connections: 0
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:06.437Z - [WATCHER]: Stopping the watcher for /Users/fa-3827/project/learning-prjects (sources)
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:06.437Z - [WATCHER]: Stopping the watcher for /Users/fa-3827/project/learning-prjects (outputs)
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:06.437Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:19.343Z - Started listening on: /var/folders/3_/z9mhwz2x5z70gfrtbpsvdchc0000gn/T/452c9cf06acaa3a87fd5/d.sock
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:19.345Z - [WATCHER]: Subscribed to changes within: /Users/fa-3827/project/learning-prjects (native)
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:19.353Z - Established a connection. Number of open connections: 1
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:19.353Z - Established a connection. Number of open connections: 2
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:19.354Z - Closed a connection. Number of open connections: 1
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:19.355Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:19.403Z - [WATCHER]: Processing file changes in outputs
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:19.854Z - Time taken for 'Load Nx Plugin: /Users/fa-3827/project/learning-prjects/node_modules/nx/src/plugins/package-json' 495.255334ms
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:19.855Z - Time taken for 'Load Nx Plugin: /Users/fa-3827/project/learning-prjects/node_modules/nx/src/plugins/project-json/build-nodes/project-json' 498.012458ms
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:19.866Z - Time taken for 'loadDefaultNxPlugins' 508.83633399999997ms
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:19.915Z - Time taken for 'Load Nx Plugin: @nx/eslint/plugin' 559.6145409999999ms
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:19.973Z - Time taken for 'Load Nx Plugin: @nx/react/router-plugin' 616.589375ms
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:19.978Z - Time taken for 'Load Nx Plugin: @nx/webpack/plugin' 621.57125ms
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:19.992Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:19.992Z - [REQUEST]: 
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:19.992Z - [REQUEST]: 
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:20.003Z - Time taken for 'loadSpecifiedNxPlugins' 635.542541ms
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:20.005Z - Established a connection. Number of open connections: 2
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:20.005Z - Established a connection. Number of open connections: 3
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:20.006Z - Closed a connection. Number of open connections: 2
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:20.006Z - Established a connection. Number of open connections: 3
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:20.007Z - Closed a connection. Number of open connections: 2
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:20.007Z - Established a connection. Number of open connections: 3
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:20.010Z - [REQUEST]: Responding to the client. handleGlob
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:20.010Z - Done responding to the client handleGlob
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:20.010Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:20.011Z - Established a connection. Number of open connections: 4
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:20.011Z - Closed a connection. Number of open connections: 3
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:20.011Z - Established a connection. Number of open connections: 4
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:20.012Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:20.012Z - Done responding to the client handleHashMultiGlob
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:20.012Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:20.012Z - Established a connection. Number of open connections: 5
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:20.016Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:20.016Z - Done responding to the client handleHashMultiGlob
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:20.016Z - Handled HASH_GLOB. Handling time: 4. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:20.017Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:20.017Z - Done responding to the client handleHashGlob
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:20.017Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:20.017Z - Established a connection. Number of open connections: 6
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:20.018Z - Closed a connection. Number of open connections: 5
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:20.019Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:20.019Z - Done responding to the client handleHashMultiGlob
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:20.019Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:20.020Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:20.020Z - Done responding to the client handleHashGlob
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:20.020Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:20.664Z - Time taken for 'build-project-configs' 642.752667ms
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:20.672Z - Time taken for '@nx/vite/plugin:createDependencies' 12.046790999999985ms
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:20.692Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:20.693Z - [REQUEST]: Responding to the client. project-graph
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:20.695Z - Time taken for 'total for creating and serializing project graph' 1337.576ms
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:20.696Z - Done responding to the client project-graph
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:20.696Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1338. Response time: 3.
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:20.700Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:20.700Z - [REQUEST]: Responding to the client. project-graph
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:20.702Z - Time taken for 'total for creating and serializing project graph' 0.21166599999992286ms
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:20.704Z - Done responding to the client project-graph
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:20.704Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 4.
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:20.707Z - Established a connection. Number of open connections: 6
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:21.710Z - Established a connection. Number of open connections: 7
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:21.710Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:21.711Z - [REQUEST]: Responding to the client. project-graph
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:21.714Z - Time taken for 'total for creating and serializing project graph' 0.2734580000001188ms
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:21.714Z - Closed a connection. Number of open connections: 6
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:21.716Z - Done responding to the client project-graph
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:21.716Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 5.
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:21.722Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:21.722Z - Done responding to the client handleContextFileData
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:21.722Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:21.722Z - Closed a connection. Number of open connections: 5
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:21.803Z - Closed a connection. Number of open connections: 4
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:21.803Z - Established a connection. Number of open connections: 5
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:21.803Z - Established a connection. Number of open connections: 6
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:21.804Z - Closed a connection. Number of open connections: 5
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:21.804Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:21.804Z - [REQUEST]: Responding to the client. project-graph
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:21.806Z - Time taken for 'total for creating and serializing project graph' 0.13649999999961437ms
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:21.807Z - Done responding to the client project-graph
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:21.807Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 3.
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:21.810Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:21.810Z - [REQUEST]: Responding to the client. project-graph
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:21.812Z - Time taken for 'total for creating and serializing project graph' 0.10366599999997561ms
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:21.813Z - Done responding to the client project-graph
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:21.813Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 3.
+[NX v21.2.1 Daemon Server] - 2025-07-08T06:45:21.816Z - Established a connection. Number of open connections: 6
