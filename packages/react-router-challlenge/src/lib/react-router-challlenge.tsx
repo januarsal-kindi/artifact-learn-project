@@ -5,7 +5,7 @@ import {
   useState,
 } from 'react';
 
-import './App.css';
+// import './App.css';
 
 // User stories
 // 1. As a user, I want to navigate between different pages (Home, About, Contact) using links.

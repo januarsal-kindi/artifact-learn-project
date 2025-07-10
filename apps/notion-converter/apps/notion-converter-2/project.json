@@ -1,0 +1,59 @@
+{
+  "name": "notion-converter-2",
+  "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/notion-converter/apps/notion-converter-2/src",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "@nx/esbuild:esbuild",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "platform": "node",
+        "outputPath": "dist/apps/notion-converter/apps/notion-converter-2",
+        "format": ["cjs"],
+        "bundle": false,
+        "main": "apps/notion-converter/apps/notion-converter-2/src/main.ts",
+        "tsConfig": "apps/notion-converter/apps/notion-converter-2/tsconfig.app.json",
+        "assets": ["apps/notion-converter/apps/notion-converter-2/src/assets"],
+        "generatePackageJson": true,
+        "esbuildOptions": {
+          "sourcemap": true,
+          "outExtension": {
+            ".js": ".js"
+          }
+        }
+      },
+      "configurations": {
+        "development": {},
+        "production": {
+          "esbuildOptions": {
+            "sourcemap": false,
+            "outExtension": {
+              ".js": ".js"
+            }
+          }
+        }
+      }
+    },
+    "serve": {
+      "continuous": true,
+      "executor": "@nx/js:node",
+      "defaultConfiguration": "development",
+      "dependsOn": ["build"],
+      "options": {
+        "buildTarget": "notion-converter-2:build",
+        "runBuildTargetDependencies": false
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "notion-converter-2:build:development"
+        },
+        "production": {
+          "buildTarget": "notion-converter-2:build:production"
+        }
+      }
+    }
+  },
+  "tags": []
+}
