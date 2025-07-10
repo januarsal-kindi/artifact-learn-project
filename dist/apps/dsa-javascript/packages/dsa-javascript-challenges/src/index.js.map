@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../../../../packages/dsa-javascript-challenges/src/index.ts"],
-  "sourcesContent": ["export * from './fourConnector';\n"],
-  "mappings": ";;;;;;;;;;;;;;AAAA;AAAA;AAAA,wBAAc,4BAAd;",
-  "names": []
-}

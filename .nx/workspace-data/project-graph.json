@@ -1,126 +1,5 @@
 {
   "nodes": {
-    "notion-converter-2": {
-      "name": "notion-converter-2",
-      "type": "app",
-      "data": {
-        "root": "apps/notion-converter/apps/notion-converter-2",
-        "targets": {
-          "lint": {
-            "cache": true,
-            "options": {
-              "cwd": "apps/notion-converter/apps/notion-converter-2",
-              "command": "eslint ."
-            },
-            "inputs": [
-              "default",
-              "^default",
-              "{workspaceRoot}/eslint.config.mjs",
-              "{workspaceRoot}/tools/eslint-rules/**/*",
-              {
-                "externalDependencies": [
-                  "eslint"
-                ]
-              }
-            ],
-            "outputs": [
-              "{options.outputFile}"
-            ],
-            "metadata": {
-              "technologies": [
-                "eslint"
-              ],
-              "description": "Runs ESLint on project",
-              "help": {
-                "command": "npx eslint --help",
-                "example": {
-                  "options": {
-                    "max-warnings": 0
-                  }
-                }
-              }
-            },
-            "executor": "nx:run-commands",
-            "configurations": {},
-            "parallelism": true
-          },
-          "build": {
-            "executor": "@nx/esbuild:esbuild",
-            "outputs": [
-              "{options.outputPath}"
-            ],
-            "defaultConfiguration": "production",
-            "options": {
-              "platform": "node",
-              "outputPath": "dist/apps/notion-converter/apps/notion-converter-2",
-              "format": [
-                "cjs"
-              ],
-              "bundle": false,
-              "main": "apps/notion-converter/apps/notion-converter-2/src/main.ts",
-              "tsConfig": "apps/notion-converter/apps/notion-converter-2/tsconfig.app.json",
-              "assets": [
-                "apps/notion-converter/apps/notion-converter-2/src/assets"
-              ],
-              "generatePackageJson": true,
-              "esbuildOptions": {
-                "sourcemap": true,
-                "outExtension": {
-                  ".js": ".js"
-                }
-              }
-            },
-            "configurations": {
-              "development": {},
-              "production": {
-                "esbuildOptions": {
-                  "sourcemap": false,
-                  "outExtension": {
-                    ".js": ".js"
-                  }
-                }
-              }
-            },
-            "parallelism": true,
-            "cache": true,
-            "dependsOn": [
-              "^build"
-            ],
-            "inputs": [
-              "default",
-              "^default"
-            ]
-          },
-          "serve": {
-            "continuous": true,
-            "executor": "@nx/js:node",
-            "defaultConfiguration": "development",
-            "dependsOn": [
-              "build"
-            ],
-            "options": {
-              "buildTarget": "notion-converter-2:build",
-              "runBuildTargetDependencies": false
-            },
-            "configurations": {
-              "development": {
-                "buildTarget": "notion-converter-2:build:development"
-              },
-              "production": {
-                "buildTarget": "notion-converter-2:build:production"
-              }
-            },
-            "parallelism": true
-          }
-        },
-        "name": "notion-converter-2",
-        "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
-        "sourceRoot": "apps/notion-converter/apps/notion-converter-2/src",
-        "projectType": "application",
-        "tags": [],
-        "implicitDependencies": []
-      }
-    },
     "dsa-javascript-challenges": {
       "name": "dsa-javascript-challenges",
       "type": "lib",
@@ -920,6 +799,127 @@
         ],
         "$schema": "../node_modules/nx/schemas/project-schema.json",
         "sourceRoot": "interview-prep/src",
+        "implicitDependencies": []
+      }
+    },
+    "notion-converter-3": {
+      "name": "notion-converter-3",
+      "type": "app",
+      "data": {
+        "root": "apps/notion-converter-3",
+        "targets": {
+          "lint": {
+            "cache": true,
+            "options": {
+              "cwd": "apps/notion-converter-3",
+              "command": "eslint ."
+            },
+            "inputs": [
+              "default",
+              "^default",
+              "{workspaceRoot}/eslint.config.mjs",
+              "{workspaceRoot}/tools/eslint-rules/**/*",
+              {
+                "externalDependencies": [
+                  "eslint"
+                ]
+              }
+            ],
+            "outputs": [
+              "{options.outputFile}"
+            ],
+            "metadata": {
+              "technologies": [
+                "eslint"
+              ],
+              "description": "Runs ESLint on project",
+              "help": {
+                "command": "npx eslint --help",
+                "example": {
+                  "options": {
+                    "max-warnings": 0
+                  }
+                }
+              }
+            },
+            "executor": "nx:run-commands",
+            "configurations": {},
+            "parallelism": true
+          },
+          "build": {
+            "executor": "@nx/esbuild:esbuild",
+            "outputs": [
+              "{options.outputPath}"
+            ],
+            "defaultConfiguration": "production",
+            "options": {
+              "platform": "node",
+              "outputPath": "dist/apps/notion-converter-3",
+              "format": [
+                "cjs"
+              ],
+              "bundle": false,
+              "main": "apps/notion-converter-3/src/main.ts",
+              "tsConfig": "apps/notion-converter-3/tsconfig.app.json",
+              "assets": [
+                "apps/notion-converter-3/src/assets"
+              ],
+              "generatePackageJson": true,
+              "esbuildOptions": {
+                "sourcemap": true,
+                "outExtension": {
+                  ".js": ".js"
+                }
+              }
+            },
+            "configurations": {
+              "development": {},
+              "production": {
+                "esbuildOptions": {
+                  "sourcemap": false,
+                  "outExtension": {
+                    ".js": ".js"
+                  }
+                }
+              }
+            },
+            "parallelism": true,
+            "cache": true,
+            "dependsOn": [
+              "^build"
+            ],
+            "inputs": [
+              "default",
+              "^default"
+            ]
+          },
+          "serve": {
+            "continuous": true,
+            "executor": "@nx/js:node",
+            "defaultConfiguration": "development",
+            "dependsOn": [
+              "build"
+            ],
+            "options": {
+              "buildTarget": "notion-converter-3:build",
+              "runBuildTargetDependencies": false
+            },
+            "configurations": {
+              "development": {
+                "buildTarget": "notion-converter-3:build:development"
+              },
+              "production": {
+                "buildTarget": "notion-converter-3:build:production"
+              }
+            },
+            "parallelism": true
+          }
+        },
+        "name": "notion-converter-3",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "apps/notion-converter-3/src",
+        "projectType": "application",
+        "tags": [],
         "implicitDependencies": []
       }
     },
@@ -15924,7 +15924,6 @@
     }
   },
   "dependencies": {
-    "notion-converter-2": [],
     "dsa-javascript-challenges": [
       {
         "source": "dsa-javascript-challenges",
@@ -16033,6 +16032,7 @@
         "type": "static"
       }
     ],
+    "notion-converter-3": [],
     "dsa-javascript": [
       {
         "source": "dsa-javascript",
@@ -36281,5 +36281,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1752155846399
+  "computedAt": 1752156533382
 }

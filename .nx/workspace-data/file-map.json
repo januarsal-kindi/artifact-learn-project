@@ -58,72 +58,40 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".prettierignore",
-        "hash": "14688272390704683536"
-      },
-      {
-        "file": "apps/notion-converter/dist/apps/notion-converter/apps/notion-converter-2/package.json",
-        "hash": "16329065985043469267"
-      },
-      {
-        "file": "apps/notion-converter/dist/apps/notion-converter/apps/notion-converter-2/main.js.map",
-        "hash": "8663472782908617804"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "5532998249334369269"
+        "file": "package-lock.json",
+        "hash": "5644441826778006647"
       },
       {
         "file": ".gitignore",
-        "hash": "5203960351144407933"
+        "hash": "17711869473208178104"
       },
       {
-        "file": "package.json",
-        "hash": "3430533060133905531"
-      },
-      {
-        "file": ".vscode/settings.json",
-        "hash": "95285166216195769"
+        "file": ".vscode/mcp.json",
+        "hash": "8481513135093222126"
       },
       {
         "file": "jest.config.ts",
         "hash": "6870352021923392442"
       },
       {
-        "file": "apps/notion-converter/dist/apps/notion-converter/apps/notion-converter-2/main.js",
-        "hash": "9865357962678576153"
-      },
-      {
-        "file": ".github/instructions/nx.instructions.md",
-        "hash": "5699323740207903478"
+        "file": ".prettierignore",
+        "hash": "14688272390704683536"
       },
       {
         "file": "apps/notion-converter/dist/apps/notion-converter/apps/notion-converter-2/apps/notion-converter/apps/notion-converter-2/src/main.js.map",
         "hash": "10553769846608495211"
       },
       {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
-      },
-      {
-        "file": "nx.json",
-        "hash": "16370177417055110551"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "5644441826778006647"
-      },
-      {
-        "file": "apps/notion-converter/dist/apps/notion-converter/apps/notion-converter-2/package-lock.json",
-        "hash": "2105703883776287268"
-      },
-      {
         "file": ".prettierrc",
         "hash": "16267754514737964994"
       },
       {
-        "file": ".vscode/mcp.json",
-        "hash": "8481513135093222126"
+        "file": "tsconfig.base.json",
+        "hash": "5532998249334369269"
+      },
+      {
+        "file": ".DS_Store",
+        "hash": "17031389523020257837"
       },
       {
         "file": "eslint.config.mjs",
@@ -132,29 +100,119 @@
       {
         "file": "apps/notion-converter/dist/apps/notion-converter/apps/notion-converter-2/apps/notion-converter/apps/notion-converter-2/src/main.js",
         "hash": "11781783913017331015"
+      },
+      {
+        "file": ".github/instructions/nx.instructions.md",
+        "hash": "5699323740207903478"
+      },
+      {
+        "file": "nx.json",
+        "hash": "16370177417055110551"
+      },
+      {
+        "file": "apps/.DS_Store",
+        "hash": "14009640264914468601"
+      },
+      {
+        "file": "apps/notion-converter/dist/apps/notion-converter/apps/notion-converter-2/main.js.map",
+        "hash": "8663472782908617804"
+      },
+      {
+        "file": "apps/notion-converter/dist/apps/notion-converter/apps/notion-converter-2/package-lock.json",
+        "hash": "2105703883776287268"
+      },
+      {
+        "file": "apps/notion-converter/dist/apps/notion-converter/apps/notion-converter-2/main.js",
+        "hash": "9865357962678576153"
+      },
+      {
+        "file": "apps/notion-converter/dist/apps/notion-converter/apps/notion-converter-2/package.json",
+        "hash": "16329065985043469267"
+      },
+      {
+        "file": "package.json",
+        "hash": "3430533060133905531"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "95285166216195769"
       }
     ],
     "projectFileMap": {
-      "notion-converter-2": [
+      "react-router-challenge": [
         {
-          "file": "apps/notion-converter/apps/notion-converter-2/project.json",
-          "hash": "15637488584280511142"
+          "file": "apps/react-router-challenge/.babelrc",
+          "hash": "13020124393823981135"
         },
         {
-          "file": "apps/notion-converter/apps/notion-converter-2/src/assets/.gitkeep",
+          "file": "apps/react-router-challenge/eslint.config.mjs",
+          "hash": "8789163670399984295",
+          "deps": [
+            "npm:@nx/eslint-plugin"
+          ]
+        },
+        {
+          "file": "apps/react-router-challenge/project.json",
+          "hash": "18381469770525804185"
+        },
+        {
+          "file": "apps/react-router-challenge/src/app/app.module.scss",
+          "hash": "8887387885984320532"
+        },
+        {
+          "file": "apps/react-router-challenge/src/app/app.tsx",
+          "hash": "8689788974859662900",
+          "deps": [
+            "react-router-challlenge"
+          ]
+        },
+        {
+          "file": "apps/react-router-challenge/src/app/nx-welcome.tsx",
+          "hash": "2348102959109701629"
+        },
+        {
+          "file": "apps/react-router-challenge/src/assets/.gitkeep",
           "hash": "3244421341483603138"
         },
         {
-          "file": "apps/notion-converter/apps/notion-converter-2/src/main.ts",
-          "hash": "12392147467857598639"
+          "file": "apps/react-router-challenge/src/favicon.ico",
+          "hash": "9303420814833116677"
         },
         {
-          "file": "apps/notion-converter/apps/notion-converter-2/tsconfig.app.json",
-          "hash": "626201926230120943"
+          "file": "apps/react-router-challenge/src/index.html",
+          "hash": "13177011845476832157"
         },
         {
-          "file": "apps/notion-converter/apps/notion-converter-2/tsconfig.json",
-          "hash": "6968816483812353928"
+          "file": "apps/react-router-challenge/src/main.tsx",
+          "hash": "4731961929376199421",
+          "deps": [
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "apps/react-router-challenge/src/styles.scss",
+          "hash": "5195668842064076916"
+        },
+        {
+          "file": "apps/react-router-challenge/tsconfig.app.json",
+          "hash": "2694820600608980448"
+        },
+        {
+          "file": "apps/react-router-challenge/tsconfig.json",
+          "hash": "13738934238651242848"
+        },
+        {
+          "file": "apps/react-router-challenge/webpack.config.js",
+          "hash": "18141825723938812681",
+          "deps": [
+            "npm:@nx/webpack",
+            "npm:@nx/react"
+          ]
         }
       ],
       "react-router-challlenge": [
@@ -215,6 +273,28 @@
           ]
         }
       ],
+      "notion-converter-3": [
+        {
+          "file": "apps/notion-converter-3/project.json",
+          "hash": "6920992466836323376"
+        },
+        {
+          "file": "apps/notion-converter-3/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/notion-converter-3/src/main.ts",
+          "hash": "1769695778783855813"
+        },
+        {
+          "file": "apps/notion-converter-3/tsconfig.app.json",
+          "hash": "663763413802756907"
+        },
+        {
+          "file": "apps/notion-converter-3/tsconfig.json",
+          "hash": "3025378044812449119"
+        }
+      ],
       "dsa-javascript": [
         {
           "file": "apps/dsa-javascript/eslint.config.mjs",
@@ -242,100 +322,6 @@
         {
           "file": "apps/dsa-javascript/tsconfig.json",
           "hash": "3025378044812449119"
-        }
-      ],
-      "live-code-prep": [
-        {
-          "file": "apps/live-code-prep/.babelrc",
-          "hash": "13020124393823981135"
-        },
-        {
-          "file": "apps/live-code-prep/.env",
-          "hash": "438387795066539142"
-        },
-        {
-          "file": "apps/live-code-prep/eslint.config.mjs",
-          "hash": "8789163670399984295",
-          "deps": [
-            "npm:@nx/eslint-plugin"
-          ]
-        },
-        {
-          "file": "apps/live-code-prep/jest.config.ts",
-          "hash": "16231639072617660971"
-        },
-        {
-          "file": "apps/live-code-prep/project.json",
-          "hash": "7636045797875242491"
-        },
-        {
-          "file": "apps/live-code-prep/src/app/app.module.scss",
-          "hash": "8887387885984320532"
-        },
-        {
-          "file": "apps/live-code-prep/src/app/app.spec.tsx",
-          "hash": "10174493050587242241",
-          "deps": [
-            "npm:@testing-library/react",
-            "npm:react-router-dom"
-          ]
-        },
-        {
-          "file": "apps/live-code-prep/src/app/app.tsx",
-          "hash": "9119844212446043751",
-          "deps": [
-            "interview-prep",
-            "npm:react-router-dom"
-          ]
-        },
-        {
-          "file": "apps/live-code-prep/src/app/nx-welcome.tsx",
-          "hash": "2348102959109701629"
-        },
-        {
-          "file": "apps/live-code-prep/src/assets/.gitkeep",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/live-code-prep/src/favicon.ico",
-          "hash": "9303420814833116677"
-        },
-        {
-          "file": "apps/live-code-prep/src/index.html",
-          "hash": "16451737786012787259"
-        },
-        {
-          "file": "apps/live-code-prep/src/main.tsx",
-          "hash": "763379880219152615",
-          "deps": [
-            "npm:react",
-            "npm:react-dom",
-            "npm:react-router-dom"
-          ]
-        },
-        {
-          "file": "apps/live-code-prep/src/styles.scss",
-          "hash": "5195668842064076916"
-        },
-        {
-          "file": "apps/live-code-prep/tsconfig.app.json",
-          "hash": "3126679420255048410"
-        },
-        {
-          "file": "apps/live-code-prep/tsconfig.json",
-          "hash": "9850153468027031608"
-        },
-        {
-          "file": "apps/live-code-prep/tsconfig.spec.json",
-          "hash": "3305260514729189295"
-        },
-        {
-          "file": "apps/live-code-prep/webpack.config.js",
-          "hash": "16986743399807091174",
-          "deps": [
-            "npm:@nx/webpack",
-            "npm:@nx/react"
-          ]
         }
       ],
       "interview-prep": [
@@ -473,72 +459,94 @@
           "hash": "15798669420171897096"
         }
       ],
-      "react-router-challenge": [
+      "live-code-prep": [
         {
-          "file": "apps/react-router-challenge/.babelrc",
+          "file": "apps/live-code-prep/.babelrc",
           "hash": "13020124393823981135"
         },
         {
-          "file": "apps/react-router-challenge/eslint.config.mjs",
+          "file": "apps/live-code-prep/.env",
+          "hash": "438387795066539142"
+        },
+        {
+          "file": "apps/live-code-prep/eslint.config.mjs",
           "hash": "8789163670399984295",
           "deps": [
             "npm:@nx/eslint-plugin"
           ]
         },
         {
-          "file": "apps/react-router-challenge/project.json",
-          "hash": "18381469770525804185"
+          "file": "apps/live-code-prep/jest.config.ts",
+          "hash": "16231639072617660971"
         },
         {
-          "file": "apps/react-router-challenge/src/app/app.module.scss",
+          "file": "apps/live-code-prep/project.json",
+          "hash": "7636045797875242491"
+        },
+        {
+          "file": "apps/live-code-prep/src/app/app.module.scss",
           "hash": "8887387885984320532"
         },
         {
-          "file": "apps/react-router-challenge/src/app/app.tsx",
-          "hash": "8689788974859662900",
+          "file": "apps/live-code-prep/src/app/app.spec.tsx",
+          "hash": "10174493050587242241",
           "deps": [
-            "react-router-challlenge"
+            "npm:@testing-library/react",
+            "npm:react-router-dom"
           ]
         },
         {
-          "file": "apps/react-router-challenge/src/app/nx-welcome.tsx",
+          "file": "apps/live-code-prep/src/app/app.tsx",
+          "hash": "9119844212446043751",
+          "deps": [
+            "interview-prep",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/live-code-prep/src/app/nx-welcome.tsx",
           "hash": "2348102959109701629"
         },
         {
-          "file": "apps/react-router-challenge/src/assets/.gitkeep",
+          "file": "apps/live-code-prep/src/assets/.gitkeep",
           "hash": "3244421341483603138"
         },
         {
-          "file": "apps/react-router-challenge/src/favicon.ico",
+          "file": "apps/live-code-prep/src/favicon.ico",
           "hash": "9303420814833116677"
         },
         {
-          "file": "apps/react-router-challenge/src/index.html",
-          "hash": "13177011845476832157"
+          "file": "apps/live-code-prep/src/index.html",
+          "hash": "16451737786012787259"
         },
         {
-          "file": "apps/react-router-challenge/src/main.tsx",
-          "hash": "4731961929376199421",
+          "file": "apps/live-code-prep/src/main.tsx",
+          "hash": "763379880219152615",
           "deps": [
             "npm:react",
-            "npm:react-dom"
+            "npm:react-dom",
+            "npm:react-router-dom"
           ]
         },
         {
-          "file": "apps/react-router-challenge/src/styles.scss",
+          "file": "apps/live-code-prep/src/styles.scss",
           "hash": "5195668842064076916"
         },
         {
-          "file": "apps/react-router-challenge/tsconfig.app.json",
-          "hash": "2694820600608980448"
+          "file": "apps/live-code-prep/tsconfig.app.json",
+          "hash": "3126679420255048410"
         },
         {
-          "file": "apps/react-router-challenge/tsconfig.json",
-          "hash": "13738934238651242848"
+          "file": "apps/live-code-prep/tsconfig.json",
+          "hash": "9850153468027031608"
         },
         {
-          "file": "apps/react-router-challenge/webpack.config.js",
-          "hash": "18141825723938812681",
+          "file": "apps/live-code-prep/tsconfig.spec.json",
+          "hash": "3305260514729189295"
+        },
+        {
+          "file": "apps/live-code-prep/webpack.config.js",
+          "hash": "16986743399807091174",
           "deps": [
             "npm:@nx/webpack",
             "npm:@nx/react"

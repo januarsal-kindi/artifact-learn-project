@@ -1,7 +1,7 @@
 {
-  "name": "notion-converter-2",
-  "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "apps/notion-converter/apps/notion-converter-2/src",
+  "name": "notion-converter-3",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/notion-converter-3/src",
   "projectType": "application",
   "targets": {
     "build": {
@@ -10,12 +10,12 @@
       "defaultConfiguration": "production",
       "options": {
         "platform": "node",
-        "outputPath": "dist/apps/notion-converter/apps/notion-converter-2",
+        "outputPath": "dist/apps/notion-converter-3",
         "format": ["cjs"],
         "bundle": false,
-        "main": "apps/notion-converter/apps/notion-converter-2/src/main.ts",
-        "tsConfig": "apps/notion-converter/apps/notion-converter-2/tsconfig.app.json",
-        "assets": ["apps/notion-converter/apps/notion-converter-2/src/assets"],
+        "main": "apps/notion-converter-3/src/main.ts",
+        "tsConfig": "apps/notion-converter-3/tsconfig.app.json",
+        "assets": ["apps/notion-converter-3/src/assets"],
         "generatePackageJson": true,
         "esbuildOptions": {
           "sourcemap": true,
@@ -42,15 +42,15 @@
       "defaultConfiguration": "development",
       "dependsOn": ["build"],
       "options": {
-        "buildTarget": "notion-converter-2:build",
+        "buildTarget": "notion-converter-3:build",
         "runBuildTargetDependencies": false
       },
       "configurations": {
         "development": {
-          "buildTarget": "notion-converter-2:build:development"
+          "buildTarget": "notion-converter-3:build:development"
         },
         "production": {
-          "buildTarget": "notion-converter-2:build:production"
+          "buildTarget": "notion-converter-3:build:production"
         }
       }
     }
