@@ -3,11 +3,11 @@ vitest.config.*.timestamp*
 node_modules
 tmp
 dist
-# .nx
-# /.nx
-# /.nx
-# /dist
-# /coverage
-# /.nx/cache
-# /.nx/workspace-data/*
-# /.nx/workspace-data/*
+.nx
+/.nx
+/.nx
+/dist
+/coverage
+/.nx/cache
+/.nx/workspace-data/*
+/.nx/workspace-data/*
